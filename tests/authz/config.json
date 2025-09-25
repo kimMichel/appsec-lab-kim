@@ -1,0 +1,12 @@
+{
+  "baseURL": "http://localhost:3000/api",
+  "users": {
+    "userA": { "token": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQSIsInRlbmFudF9pZCI6IlQxIiwicm9sZXMiOlsiYmlsbGluZy52aWV3ZXIiXSwiaWF0IjoxNzU4NzYyOTY3LCJleHAiOjE3NTg3NjY1Njd9.OIu5lyNxgGzpPKbNsjykQ4uqK6DnMraYzZUnTB7Ua-Q", "tenant": "T1" },
+    "userB": { "token": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQiIsInRlbmFudF9pZCI6IlQyIiwicm9sZXMiOlsiYmlsbGluZy52aWV3ZXIiXSwiaWF0IjoxNzU4NzYyOTY3LCJleHAiOjE3NTg3NjY1Njd9.Ucx_37Hks7athLhOV3_1vjRgQPsPEgx277C4wcbqZXc", "tenant": "T2" },
+    "admin": { "token": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pblQxIiwidGVuYW50X2lkIjoiVDEiLCJyb2xlcyI6WyJiaWxsaW5nLmFkbWluIl0sImlhdCI6MTc1ODc2Mjk2NywiZXhwIjoxNzU4NzY2NTY3fQ.3ZeusBZqXfyO9bW_laP5Ae8UqaSEWgRZSUaJcdeRP7E",  "tenant": "T1" }
+  },
+  "resources": {
+    "invoiceFromTenant1": "1001",
+    "invoiceFromTenant2": "2002"
+  }
+}
